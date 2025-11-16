@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday! 🎂</title>
+    <title>Boldog születésnapot! 🎂</title>
     <link rel="stylesheet" href="birthday.css">
 </head>
 <body>
@@ -18,20 +18,20 @@
 
         <div class="lock-card">
             <div class="lock-icon animate-heartbeat">🔒</div>
-            <h1 class="lock-title">🎂 Special Surprise 🎂</h1>
-            <p class="lock-subtitle">Enter your birthdate to unlock your gift!</p>
+            <h1 class="lock-title">🎂 Meglepetés 🎂</h1>
+            <p class="lock-subtitle">Írd be a születésnapod idejét, hogy felold az ajándékom!</p>
 
             <div class="form-group">
-                <label class="form-label">Your Birthdate</label>
+                <label class="form-label">Születésed ideje</label>
                 <input type="date" id="birthdateInput" class="form-input">
             </div>
 
             <div class="error-message" id="errorMessage">
-                Oops! That's not the right birthdate. Try again! 💚
+                Ez nem a helyes időpont, próbáld újra! 💚
             </div>
 
             <button class="unlock-btn" onclick="checkBirthdate()">
-                Unlock My Gift
+                oldd fel az ajándékod.
             </button>
 
             <div class="decorative-icons">
@@ -40,7 +40,7 @@
                 <span style="color: #eab308; font-size: 1.5rem;" class="animate-pulse-slow">✨</span>
             </div>
             <p style="margin-top: 2rem; color: #db2777; font-size: 0.85rem; text-align: center; opacity: 0.8;">
-                Created with 💖 by your love
+                Készítve 💖 a barátodtól.
             </p>
         </div>
     </div>
@@ -57,19 +57,19 @@
         <!-- Music Player -->
         <div class="music-player">
             <button class="music-btn" onclick="toggleMusic()" id="musicBtn">🎵</button>
-            <span class="music-text" id="musicText">Play Music</span>
+            <span class="music-text" id="musicText">játszd le a zenét</span>
         </div>
 
         <!-- Floating Heart Button -->
-        <button class="floating-heart-btn" onclick="showLoveModal()" title="Click for a surprise!">💕</button>
+        <button class="floating-heart-btn" onclick="showLoveModal()" title="kattints ide egy meglepetésért!">💕</button>
 
         <!-- Love Modal -->
         <div class="modal" id="loveModal">
             <div class="modal-content">
                 <button class="modal-close" onclick="closeLoveModal()">×</button>
                 <div class="modal-icon">💖</div>
-                <h2 class="modal-title">You Are Loved!</h2>
-                <p class="modal-text">Every single day with you feels like a dream come true. You make my heart skip a beat, my face light up with a smile, and my life infinitely better. Thank you for being YOU! 💕</p>
+                <h2 class="modal-title">Minden nap szeretlek</h2>
+                <p class="modal-text">Minden nap veled, olyan mintha egy álomn valósult volna meg. Rádnézek, egy mosoly csillan fel sz arcomon és a napom máris jobb. Köszönöm hogy vagy nekem! 💕</p>
             </div>
         </div>
 
@@ -78,11 +78,11 @@
             <div class="header animate-pulse-slow animate-fadeInUp">
                 <h1>
                     <span class="animate-heartbeat">❤️</span>
-                    Happy Birthday Love!
+                    Boldog születésnapot Királynőm!
                     <span class="animate-heartbeat">❤️</span>
                 </h1>
                 <p class="header-subtitle">To My Beautiful Girlfriend</p>
-                <p class="header-extra">On this special day, I celebrate you and all the beautiful moments we share together</p>
+                <p class="header-extra">Ezen a különleges napon, téged és a közös pillanatainkat ünnepeljük.</p>
                 <div class="sparkles">
                     <span style="color: #eab308; animation: twinkle 1.5s ease-in-out infinite;">✨</span>
                     <span style="color: #ec4899; animation: twinkle 1.5s ease-in-out infinite 0.3s;">💖</span>
@@ -96,41 +96,41 @@
                     <div class="candle-flame">🕯️</div>
                     <div class="cake">🎂</div>
                 </div>
-                <h2 class="cake-title">Make a Wish! ✨</h2>
-                <p class="cake-subtitle">Blow out the candle and make this year magical!</p>
-                <button class="wish-button" onclick="blowCandle()">💨 Blow the Candle</button>
+                <h2 class="cake-title">Kívánj valamit! ✨</h2>
+                <p class="cake-subtitle">Fújd el a gyertyát!</p>
+                <button class="wish-button" onclick="blowCandle()">💨 Fújd el a gyertyát</button>
             </div>
 
             <!-- Timeline Section -->
             <div class="timeline-section animate-fadeInUp" style="animation-delay: 0.2s;">
-                <h2 class="timeline-title">📅 Our Love Story</h2>
+                <h2 class="timeline-title">📅 A történetünk</h2>
                 <div class="timeline-item">
                     <div class="timeline-icon">❤️</div>
                     <div class="timeline-content">
-                        <h3>From the First Day</h3>
-                        <p>You walked into my life and made every moment special. From that first smile to today, you've been my greatest blessing.</p>
+                        <h3>Az első naptól</h3>
+                        <p>Amikor beléptél az életembe, minden megváltozott. Az első mosolyodtól kezdve tudtam, hogy különleges vagy számomra.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-icon">💫</div>
                     <div class="timeline-content">
-                        <h3>Growing Together</h3>
-                        <p>Every day with you is an adventure. Through laughter, dreams, and memories, we continue to build something beautiful.</p>
+                        <h3>Felnőni együtt</h3>
+                        <p>Minden nap egy új kaland veled. A nevetéseken, álmokon és emlékeken át valami gyönyörűt építünk együtt.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-icon">🌹</div>
                     <div class="timeline-content">
-                        <h3>Forever and Always</h3>
-                        <p>Today is your special day, but every day is special because you're in my life. Happy Birthday to my everything! 💚</p>
+                        <h3>Mindörökké</h3>
+                        <p>Ma a te napod, de minden nap különleges, mert az életem része vagy. Boldog születésnapot, szerelmem! 💚</p>
                     </div>
                 </div>
             </div>
 
             <!-- Countdown Section -->
             <div class="countdown-section animate-scaleIn" style="animation-delay: 0.3s; opacity: 0;">
-                <h2 class="countdown-title">Time Since You Said "YES"</h2>
-                <p style="color: #be185d; font-size: 1.2rem; margin-bottom: 1.5rem; font-weight: 600;">Since the day you became my girlfriend...</p>
+                <h2 class="countdown-title">Amióta igent mondtunk egymásnak</h2>
+                <p style="color: #be185d; font-size: 1.2rem; margin-bottom: 1.5rem; font-weight: 600;">Amióta az én Disney hercegnőm vagy...</p>
                 <div class="countdown-grid">
                     <div class="countdown-item">
                         <span class="countdown-number" id="daysCount">0</span>
@@ -149,59 +149,59 @@
                         <span class="countdown-label">Seconds</span>
                     </div>
                 </div>
-                <p style="margin-top: 1.5rem; color: #be185d; font-size: 1.1rem; font-weight: 600;">Every second with you has been a blessing! 💕</p>
+                <p style="margin-top: 1.5rem; color: #be185d; font-size: 1.1rem; font-weight: 600;">Minden perc, másodperc egy áldás veled! 💕</p>
             </div>
 
             <!-- Love Reasons Section -->
             <div class="love-reasons-section animate-fadeInUp" style="animation-delay: 0.4s;">
-                <h2 class="section-title">💚 Reasons Why I Love You</h2>
+                <h2 class="section-title">💚 Miért szeretlek?</h2>
                 <div class="reasons-grid" id="reasonsGrid">
                     <div class="reason-card">
                         <span class="reason-icon">😊</span>
-                        <p class="reason-text">Your smile brightens even my darkest days</p>
+                        <p class="reason-text">A mosolyod világosabb még a legsötétebb napjaimon. (nem a szájfénytől)</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">🤗</span>
-                        <p class="reason-text">Your hugs make me feel safe and loved</p>
+                        <p class="reason-text">az ölelésed, olyan mint az otthonom.</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">💬</span>
-                        <p class="reason-text">The way we can talk for hours about everything and nothing</p>
+                        <p class="reason-text">Bármi van, megpróbáljuk megoldani./p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">✨</span>
-                        <p class="reason-text">You make ordinary moments feel magical</p>
+                        <p class="reason-text">Te a hétköznapokat is varázslatossá teszed</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">🌟</span>
-                        <p class="reason-text">Your kindness and compassion inspire me daily</p>
+                        <p class="reason-text">A mosolyod, és a szemeid inspirálnak, hogy miért is érdemes élni.</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">💪</span>
-                        <p class="reason-text">Your strength when facing challenges amazes me</p>
+                        <p class="reason-text">Az energiád lenyűgöz</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">😄</span>
-                        <p class="reason-text">Your laugh is my favorite sound in the world</p>
+                        <p class="reason-text">A nevetésed, a kedvenc hangom, az egész világban</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">🙏</span>
-                        <p class="reason-text">You believe in me even when I doubt myself</p>
+                        <p class="reason-text">Hiszel nekem, még akkor is ha megkérdőjelezem saját magam.</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">🎨</span>
-                        <p class="reason-text">You bring color to my life every single day</p>
+                        <p class="reason-text">Színesíted minden pillanatom, és napom</p>
                     </div>
                     <div class="reason-card">
                         <span class="reason-icon">💖</span>
-                        <p class="reason-text">You are my everything</p>
+                        <p class="reason-text">Te vagy az én világom, soha nem szeretnélek elveszíteni</p>
                     </div>
                 </div>
             </div>
 
             <!-- Photo Memories Section -->
             <div class="memories-section animate-fadeInUp" style="animation-delay: 0.4s;">
-                <h2 class="section-title">📸 Our Precious Memories</h2>
+                <h2 class="section-title">📸 Egy pár kép rólunk</h2>
                 <div class="memories-grid">
                     <img src="photo1.jpg" alt="Memory 1" class="memory-photo">
                     <img src="photo2.jpg" alt="Memory 2" class="memory-photo">
@@ -214,20 +214,21 @@
                     <img src="photo9.jpg" alt="Memory 9" class="memory-photo">
                     <img src="photo10.jpg" alt="Memory 10" class="memory-photo">
                     <img src="photo11.jpg" alt="Memory 11" class="memory-photo">
+                    <img src="photo12.jpg" alt="Memory 12" class="memory-photo">
 
                 </div>
             </div>
 
             <!-- Message Display with Envelope -->
             <div class="messages-container active animate-fadeInUp" id="messagesContainer" style="animation-delay: 0.6s;">
-                <h2 class="section-title">💌 Open My Heart</h2>
+                <h2 class="section-title">💌 Nyisd ki a szívem</h2>
                 
                 <!-- Envelope -->
                 <div class="envelope-container" id="envelopeContainer">
                     <div class="envelope" onclick="openEnvelope()" id="envelope">
                         <div class="envelope-body">
                             <div class="envelope-icon">❤️</div>
-                            <div class="envelope-text">Click to open my love letter</div>
+                            <div class="envelope-text">Kattints ide, hogy kinyisd a szerelmeslevelem</div>
                         </div>
                     </div>
                 </div>
@@ -235,15 +236,14 @@
                 <!-- Message that appears after opening -->
                 <div id="messagesList" style="display: none;">
                     <div class="message-card opened">
-                        <p class="message-text">Every day with you feels like a beautiful dream I never want to wake up from. You make everything brighter — the mornings softer, the nights warmer, and even the quiet moments feel special when you’re by my side.
+                        <p class="message-text">Minden nap veled olyan, mint egy gyönyörű álom, amiből soha nem akarok felébredni. Mindent szebbé teszel — a reggeleket lágyabbá, az estéket melegebbé, és még a csendes pillanatok is különlegessé válnak, amikor mellettem vagy.
 
-I love the way your smile lights up the room and the way your laughter feels like home to me. When I think of my future, all I can see is you — your hand in mine, your voice, your heart, your everything.
+Imádom, ahogy a mosolyod beragyogja a szobát, és ahogy a nevetésed számomra az otthon érzését adja. Amikor a jövőmre gondolok, csak téged látlak — a kezedet az enyémben, a hangodat, a szívedet, mindenedet.
 
-You’ve become my favorite person, my calm in the chaos, and the reason I want to be a better man every single day. I don’t need anything else in this world as long as I have you.
+Te lettél a kedvenc emberem, a nyugalom a káosz közepén, és az oka annak, hogy minden egyes nap jobb ember akarok lenni. Semmi másra nincs szükségem ezen a világon, amíg téged magam mellett tudhatlak.
 
-I miss you when you’re not around, and I count the minutes until I can see you again. Thank you for loving me, for being you, and for letting me love you in return.
-Loving, boyfriend</p>
-                        <button class="close-envelope-btn" onclick="closeEnvelope()">Close & Open Again</button>
+Hiányzol, amikor nem vagy itt, és számolom a perceket, hogy újra láthassalak. Köszönöm, hogy szeretsz, hogy önmagad vagy, és hogy hagyod, hogy én is szerethesselek. SZERETLEK</p>
+                        <button class="close-envelope-btn" onclick="closeEnvelope()">Zárd be @ Nézd meg újra</button>
                     </div>
                 </div>
             </div>
@@ -252,8 +252,8 @@ Loving, boyfriend</p>
             <div class="footer animate-fadeInUp" style="animation-delay: 0.8s;">
                 <div class="footer-card">
                     <div class="footer-heart">❤️</div>
-                    <p class="footer-title">I Love You Forever!</p>
-                    <p class="footer-text">May your day be as beautiful and wonderful as you are.<br>Thank you for being the love of my life. 🎂💕</p>
+                    <p class="footer-title">Szeretlek!</p>
+                    <p class="footer-text">legyen a napod, olyan csodás mint te.<br>Köszönöm hogy az életem értelme vagy. 🎂💕</p>
                 </div>
             </div>
         </div>
