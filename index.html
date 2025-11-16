@@ -291,7 +291,7 @@ Hiányzol, amikor nem vagy itt, és számolom a perceket, hogy újra láthassala
             if (!isPlaying) {
                 audio.play().then(() => {
                     btn.textContent = '⏸️';
-                    text.textContent = 'Playing...';
+                    text.textContent = 'Folyamatban...';
                     isPlaying = true;
                 }).catch(error => {
                     console.log('Audio play failed:', error);
@@ -299,7 +299,7 @@ Hiányzol, amikor nem vagy itt, és számolom a perceket, hogy újra láthassala
             } else {
                 audio.pause();
                 btn.textContent = '🎵';
-                text.textContent = 'Play Music';
+                text.textContent = 'Játszd le';
                 isPlaying = false;
             }
         }
